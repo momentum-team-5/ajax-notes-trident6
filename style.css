@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 100%;
+}
+
+#todo-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.note {
+    margin: 2rem;
+    border: 1px solid black;
+    width: 25%;
+    /* color: black;
+    font-size: 2.5rem; */
+    /* width: 100px; */
+    /* height: 100px; */
+}
+
+.test-area {
+    border: 1px solid black;
+    display: inline-flexbox;
+    width: 50%;
+}
+
+.delete {
+    display: flex;
+    align-items: center;
+}
