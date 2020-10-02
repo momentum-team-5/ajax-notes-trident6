@@ -5,28 +5,52 @@
     max-width: 100%;
 }
 
-#todo-list {
+.note {
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 1rem;
+    background-color: rgb(217, 227, 230);
+    /* display: flex; */
+    justify-items: left;
+}
+
+.notes-container {
     display: flex;
     flex-wrap: wrap;
 }
 
-.note {
-    margin: 2rem;
-    border: 1px solid black;
-    width: 25%;
-    /* color: black;
-    font-size: 2.5rem; */
-    /* width: 100px; */
-    /* height: 100px; */
+.note-card {
+    width: 33%;
+    border: 2px solid black;
+    border-radius: 1rem;
+    margin: 5px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-left: 0px;
 }
 
-.test-area {
-    border: 1px solid black;
-    display: inline-flexbox;
-    width: 50%;
+.note-2 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    width: 100%;
+    border: 0px;
 }
 
+.note-options {
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+.option,
 .delete {
-    display: flex;
-    align-items: center;
+    background-color: #89deef;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    padding: .25rem;
+    text-align: center;
+    font-size: .75rem;
+    margin: .5rem;
+    /* margin-left: 0rem; */
+    max-width: 12%;
 }
